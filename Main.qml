@@ -15,10 +15,6 @@ Window {
     visible: true
     title: qsTr("Hello World")
 
-    // Source - https://stackoverflow.com/q/66214412
-    // Posted by bkh6722, modified by community. See post 'Timeline' for change history
-    // Retrieved 2026-02-05, License - CC BY-SA 4.0
-
     Rectangle {
             id: background
             anchors.fill: parent
@@ -65,108 +61,6 @@ Window {
                 }
             }
         }
-
-
-            // Rectangle {
-            //     id: button
-            //     width: 300
-            //     height: 64
-            //     y: 20
-            //     radius: 15
-            //     border.width: 4
-            //      border.color: Qt.rgba(0.25, 0.25, 0.25, 1);
-
-            //     Text{
-            //         id: text
-            //         property bool colr: false
-            //         text: "Today"
-            //         color: colr ? "white" : "black"
-            //         anchors.centerIn: parent
-            //         font.weight: Font.Bold
-            //         font.pixelSize: 25
-            //     }
-
-            //     property bool selected: false
-
-            //         color: selected ? "darkgrey" : Qt.rgba(0.25, 0.25, 0.25, 1);
-
-            //         MouseArea {
-            //             anchors.fill: parent
-            //             onClicked: {
-
-            //                 button.selected = !button.selected
-            //                 text.colr = !text.colr
-            //             }
-            //         }
-            // }
-
-            // Rectangle {
-            //     id: button1
-            //     width: 300
-            //     height: 64
-            //     y:104
-            //     radius: 15
-            //     border.width: 4
-            //      border.color: Qt.rgba(0.25, 0.25, 0.25, 1);
-
-            //     Text{
-            //         id: text1
-            //         property bool colr: false
-            //         text: "Progress"
-            //         color: colr ? "white" : "black"
-            //         anchors.centerIn: parent
-            //         font.weight: Font.Bold
-            //         font.pixelSize: 25
-            //     }
-
-            //     property bool selected: false
-
-            //         color: selected ? "darkgrey" : Qt.rgba(0.25, 0.25, 0.25, 1);
-
-            //         MouseArea {
-            //             anchors.fill: parent
-            //             onClicked: {
-
-            //                 button1.selected = !button1.selected
-            //                 text1.colr = !text1.colr
-            //             }
-            //         }
-            // }
-
-            // Rectangle {
-            //     id: button2
-            //     width: 300
-            //     height: 64
-            //     y: 188
-            //     radius: 15
-            //     border.width: 4
-            //      border.color: Qt.rgba(0.25, 0.25, 0.25, 1);
-
-
-            //     Text{
-            //         id: text2
-            //         property bool colr: false
-            //         text: "Settings"
-            //         color: colr ? "white" : "black"
-            //         anchors.centerIn: parent
-            //         font.weight: Font.Bold
-            //         font.pixelSize: 25
-            //     }
-
-            //     property bool selected: false
-
-            //         color: selected ? "darkgrey" : Qt.rgba(0.25, 0.25, 0.25, 1);
-
-            //         MouseArea {
-            //             anchors.fill: parent
-            //             onClicked: {
-
-            //                 button2.selected = !button2.selected
-            //                 text2.colr = !text2.colr
-            //             }
-            //         }
-            // }
-
             }
         }
 
